@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MySynchronized.java&apos; to &apos;MySynchronized/src&apos;&#x0D;&#x0A;- Original project: &apos;basic_java_day01&apos;&#x0D;&#x0A;- Destination element: &apos;MySynchronized/src&apos;&#x0D;&#x0A;- Original element: &apos;com.ghgj.mazh.thread.MySynchronized.java&apos;" description="Copy compilation unit" destination="=MySynchronized/src" element1="/src&lt;com.ghgj.mazh.thread{MySynchronized.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1519777593291" units="1" version="1.0"/>
+</session>

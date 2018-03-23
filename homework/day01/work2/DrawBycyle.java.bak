@@ -1,0 +1,21 @@
+/**
+ * 要求：实现字符画。
+ * @author:yn
+ * @version 1.0 2017-12-12
+ * 
+ */
+//\44
+public class DrawBycyle{
+	public static void main(String[] args){
+	System.out.println("    ， __  .       <__)        ");
+	System.out.println("    、     |       7           ");
+	System.out.println("     -     |________           ");
+	
+	
+	
+
+	
+	
+
+	}
+}

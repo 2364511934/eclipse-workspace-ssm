@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;lib&apos;&#x0D;&#x0A;- Original project: &apos;SpringDemo4&apos;&#x0D;&#x0A;- Destination element: &apos;lib&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     spring-beans-4.1.6.RELEASE.jar&#x0D;&#x0A;     commons-logging-1.1.1.jar&#x0D;&#x0A;     spring-context-4.1.6.RELEASE.jar&#x0D;&#x0A;     spring-expression-4.1.6.RELEASE.jar" description="Copy files" element1="lib/spring-beans-4.1.6.RELEASE.jar" element2="lib/commons-logging-1.1.1.jar" element3="lib/spring-context-4.1.6.RELEASE.jar" element4="lib/spring-expression-4.1.6.RELEASE.jar" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1517466429745" target="/SpringAopDemo/lib" units="0" version="1.0"/>
+</session>

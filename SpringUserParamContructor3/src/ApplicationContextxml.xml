@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="userproperty" class="entity.User">
+		<property name="id" value="1" />
+		<property name="name" value="zs" />
+	</bean>
+
+	<bean id="userconstructor" class="entity.User">
+		<constructor-arg name="id" value="1"/>
+		<constructor-arg name="name" value="zs"/>
+	</bean>
+	
+	<!--  另外一种做法 参数加上索引 -->
+	<bean id="userconstructorindex" class="entity.User">
+		<constructor-arg index="0" type="int" value="1"/>
+		<constructor-arg index="1" type="String" value="zs"/>
+	</bean>
+
+</beans>

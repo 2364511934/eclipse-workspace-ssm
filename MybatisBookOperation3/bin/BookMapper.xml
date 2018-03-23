@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lee">
+	<sql id="bookCols">
+		bid, bname, author, price
+	</sql>
+
+	<select id="selectBook" resultType="book">
+		select
+		<include refid="bookCols" />
+		from book where bid=#{bid}
+	</select>
+
+	<select id="selectBookByBook" resultType="book" parameterType="book">
+		select
+		<include refid="bookCols" />
+		from book where bid=#{bid}
+	</select>
+
+	<select id="selectBookByMap" resultType="book" parameterType="map">
+		select
+		<include refid="bookCols" />
+		from book where bid=#{no}
+	</select>
+
+	<select id="selectBookAll" resultType="book">
+		select
+		<include refid="bookCols" />
+		from book
+	</select>
+
+	<select id="selectBookLike" resultType="book">
+		select
+		<include refid="bookCols" />
+		from book where bname like '%${value}%'
+	</select>
+
+	<select id="selectBookLike2" resultType="book" parameterType="book">
+		select
+		<include refid="bookCols" />
+		from book where bname like CONCAT('%',#{bname},'%')
+		or author like
+		CONCAT('%',#{author},'%')
+	</select>
+
+	<select id="selectBookByPage" resultType="book" parameterType="map">
+		select
+		<include refid="bookCols" />
+		from book limit #{startRow}, #{length}
+	</select>
+
+	<insert id="insertBookOne1" parameterType="book">
+		insert into
+		book(bname, author, price)
+		values(#{bname}, #{author}, #{price})
+	</insert>
+
+	<!-- 请求主键返回 -->
+	<insert id="insertBookOne2" parameterType="book"
+		useGeneratedKeys="true" keyProperty="bid">
+		insert into book(bname, author,
+		price)
+		values(#{bname}, #{author}, #{price})
+	</insert>
+
+	<!-- 请求主键返回 另外一种做法 -->
+	<insert id="insertBookOne3" parameterType="book">
+		<selectKey keyProperty="bid" order="AFTER" resultType="int">
+			select LAST_INSERT_ID()
+		</selectKey>
+		insert into book(bname, author, price) values(#{bname},
+		#{author}, #{price})
+	</insert>
+
+	<!--  更新某个值 -->
+	<update id="updateBookOne1" parameterType="book">
+		update book set bname=#{bname}, author=#{author}, price=#{price} 
+			where bid=#{bid}
+	</update>
+	
+	<!-- 删除某个数据 -->
+	<delete id = "deleteBookOne1">
+		delete from book where bid=#{bid}
+	</delete>
+	
+</mapper>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<classpath>
+  <source-attachment entry="D:/java_dev/tomcat/apache-tomcat-8.5.23/lib/annotations-api.jar" runtime-id="Apache Tomcat v8.5" source-attachment-path="D:/java_dev/apache-tomcat-8.5.23-windows-x64.zip"/>
+  <source-attachment entry="D:/java_dev/tomcat/apache-tomcat-8.5.23/lib/catalina-ant.jar" runtime-id="Apache Tomcat v8.5" source-attachment-path="C:/Users/ADMINI~1/AppData/Local/Temp/.org.sf.feeling.decompiler1516752447749/source/tomcat-catalina-ant-8.5.23-sources.jar"/>
+  <source-attachment entry="D:/java_dev/tomcat/apache-tomcat-8.5.23/lib/catalina.jar" runtime-id="Apache Tomcat v8.5" source-attachment-path="C:/Users/ADMINI~1/AppData/Local/Temp/.org.sf.feeling.decompiler1516842139461/source/tomcat-catalina-8.5.23-sources.jar"/>
+  <source-attachment entry="D:/java_dev/tomcat/apache-tomcat-8.5.23/lib/jaspic-api.jar" runtime-id="Apache Tomcat v8.5" source-attachment-path="C:/Users/ADMINI~1/AppData/Local/Temp/.org.sf.feeling.decompiler1516842139461/source/tomcat-jaspic-api-8.5.23-sources.jar"/>
+  <source-attachment entry="D:/java_dev/tomcat/apache-tomcat-8.5.23/lib/servlet-api.jar" runtime-id="Apache Tomcat v8.5" source-attachment-path="C:/Users/ADMINI~1/AppData/Local/Temp/.org.sf.feeling.decompiler1516924748448/source/tomcat-servlet-api-8.5.23-sources-1516962893466.jar"/>
+</classpath>

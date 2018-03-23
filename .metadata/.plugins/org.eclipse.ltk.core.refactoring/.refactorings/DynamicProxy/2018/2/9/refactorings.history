@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ghgj.yn.stat.StudentStaticProxyDAO&apos; to &apos;StudentDynamicProxyDAO&apos;&#x0D;&#x0A;- Original project: &apos;DynamicProxy&apos;&#x0D;&#x0A;- Original element: &apos;com.ghgj.yn.stat.StudentStaticProxyDAO&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ghgj.yn.stat.StudentDynamicProxyDAO&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StudentStaticProxyDAO&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.ghgj.yn.stat{StudentStaticProxyDAO.java[StudentStaticProxyDAO" matchStrategy="1" name="StudentDynamicProxyDAO" qualified="false" references="true" similarDeclarations="false" stamp="1519734872542" textual="false" version="1.0"/>
+</session>

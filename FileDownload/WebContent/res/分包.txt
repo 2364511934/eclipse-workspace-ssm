@@ -1,0 +1,107 @@
+package jdbcExam;
+
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class EmpDao {
+
+    public static void insertEmp() {
+        Connection conn = null;
+        Statement stmt = null;
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            String url = "jdbc:mysql://localhost:3306/bd1711";
+            String user = "root";
+            String pwd = "hosuke";
+            conn = DriverManager.getConnection(url, user, pwd);
+            stmt = conn.createStatement();
+            String sql = "insert emp(empno, ename, job, sal, deptno) values(5732, 'GEYANG', 'PROGRAMMER', 4200, 20)";
+            int rows = stmt.executeUpdate(sql);
+            System.out.println("Affected rows: " + rows);
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (stmt != null) {
+                    stmt.close();
+                }
+                if (conn != null) {
+                    conn.close();
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static void queryEmp() {
+        Connection conn = null;
+        Statement stmt = null;
+        ResultSet rs = null;
+
+        try {
+            // Initialization
+            Class.forName("com.mysql.jdbc.Driver");
+            String url = "jdbc:mysql://localhost:3306/bd1711";
+            String user = "root";
+            String pwd = "hosuke";
+            conn = DriverManager.getConnection(url, user, pwd);
+            stmt = conn.createStatement();
+
+            // Execute SQL and get data
+            String sql = "select * from emp;";
+            rs = stmt.executeQuery(sql);
+            ResultSetMetaData rsmd = rs.getMetaData();
+            int columnCount = rsmd.getColumnCount();
+
+            // Stores Data
+            List<Map> emps = new ArrayList();
+            while (rs.next()) {
+                Map rowData = new HashMap();
+                for (int i = 1; i <= columnCount; i++) {
+                    rowData.put(rsmd.getColumnName(i), rs.getObject(i));
+                }
+                emps.add(rowData);
+            }
+
+            // Print table
+            for (int i = 1; i <= columnCount; i++) {
+                System.out.print("\t" + rsmd.getColumnName(i) + "\t\t|");
+            }
+            System.out.println();
+            for (Map emp: emps) {
+                for (int i = 1; i <= columnCount; i++) {
+                    System.out.print("\t" + emp.get(rsmd.getColumnName(i)) + "\t\t|");
+                }
+                System.out.println();
+            }
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (rs != null)
+                    rs.close();
+                if (stmt != null)
+                    stmt.close();
+                if (conn != null)
+                    conn.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        insertEmp();
+        queryEmp();
+    }
+}

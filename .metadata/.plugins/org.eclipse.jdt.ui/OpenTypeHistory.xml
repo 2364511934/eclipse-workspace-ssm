@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=homework/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.lang(StringBuffer.class[StringBuffer" modifiers="49" timestamp="1511766885990"/>
+<typeInfo handle="=homework/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.lang(Integer.class[Integer" modifiers="49" timestamp="1511766885990"/>
+<typeInfo handle="=homework/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.lang(Character.class[Character" modifiers="49" timestamp="1511766885990"/>
+<typeInfo handle="=homework/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.lang(String.class[String" modifiers="49" timestamp="1511766885990"/>
+<typeInfo handle="=StudyTeacher/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util(InputMismatchException.class[InputMismatchException" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=StudyTeacher/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.lang(Throwable.class[Throwable" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=StudyTeacher/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1511766885990"/>
+<typeInfo handle="=StudyTeacher/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.lang(Error.class[Error" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=StudyTeacher/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util(Deque.class[Deque" modifiers="1537" timestamp="1511766885990"/>
+<typeInfo handle="=StudyTeacher/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;com.sun.jmx.remote.internal(ArrayQueue.class[ArrayQueue" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=StudyTeacher/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util(TreeSet.class[TreeSet" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=StudyTeacher/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util.stream(Stream.class[Stream" modifiers="1537" timestamp="1511766885990"/>
+<typeInfo handle="=StudyTeacher/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.io(InputStreamReader.class[InputStreamReader" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=ServerletDemo/D:\/java_dev\/tomcat\/apache-tomcat-8.5.23\/lib\/servlet-api.jar&lt;javax.servlet(Servlet.class[Servlet" modifiers="1537" timestamp="1506569460000"/>
+<typeInfo handle="=ServerletDemo/D:\/java_dev\/tomcat\/apache-tomcat-8.5.23\/lib\/servlet-api.jar&lt;javax.servlet(GenericServlet.class[GenericServlet" modifiers="1057" timestamp="1506569460000"/>
+<typeInfo handle="=ServerletDemo/D:\/java_dev\/tomcat\/apache-tomcat-8.5.23\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1506569460000"/>
+<typeInfo handle="=SpringDemo/src&lt;service{UserService.java[UserService" modifiers="513" timestamp="1517370526071"/>
+<typeInfo handle="=SpringDemo6/src&lt;service{UserService.java[UserService" modifiers="513" timestamp="1517386669121"/>
+<typeInfo handle="=SpringXmlUserService/src&lt;dao{UserDao.java[UserDao" modifiers="513" timestamp="1517395613578"/>
+<typeInfo handle="=SpringXmlUserService/src&lt;service{UserService.java[UserService" modifiers="513" timestamp="1517395694280"/>
+<typeInfo handle="=SpringMvcDemo2/D:\/eclipse-workspace\/SpringMvcDemo2\/WebContent\/WEB-INF\/lib\/spring-webmvc-4.1.6.RELEASE.jar&lt;org.springframework.web.servlet(DispatcherServlet.class[DispatcherServlet" modifiers="33" timestamp="1517542183633"/>
+<typeInfo handle="=SpringMvcDemo2/D:\/eclipse-workspace\/SpringMvcDemo2\/WebContent\/WEB-INF\/lib\/spring-webmvc-4.1.6.RELEASE.jar&lt;org.springframework.web.servlet.handler(BeanNameUrlHandlerMapping.class[BeanNameUrlHandlerMapping" modifiers="33" timestamp="1517542183633"/>
+<typeInfo handle="=SpringMvcDemo2/D:\/eclipse-workspace\/SpringMvcDemo2\/WebContent\/WEB-INF\/lib\/spring-webmvc-4.1.6.RELEASE.jar&lt;org.springframework.web.servlet.mvc(SimpleControllerHandlerAdapter.class[SimpleControllerHandlerAdapter" modifiers="33" timestamp="1517542183633"/>
+<typeInfo handle="=SpringMvcDemo2/D:\/eclipse-workspace\/SpringMvcDemo2\/WebContent\/WEB-INF\/lib\/spring-webmvc-4.1.6.RELEASE.jar&lt;org.springframework.web.servlet.view(InternalResourceViewResolver.class[InternalResourceViewResolver" modifiers="33" timestamp="1517542183633"/>
+<typeInfo handle="=SpringMvcDemo2/WebContent\/WEB-INF\/lib\/spring-webmvc-4.1.6.RELEASE.jar&lt;org.springframework.web.servlet.mvc.method.annotation(RequestMappingHandlerMapping.class[RequestMappingHandlerMapping" modifiers="33" timestamp="1517542183633"/>
+<typeInfo handle="=SpringMvcDemo2/D:\/eclipse-workspace\/SpringMvcDemo2\/WebContent\/WEB-INF\/lib\/spring-webmvc-4.1.6.RELEASE.jar&lt;org.springframework.web.servlet.mvc.method.annotation(RequestMappingHandlerMapping.class[RequestMappingHandlerMapping" modifiers="33" timestamp="1517542183633"/>
+<typeInfo handle="=SpringMvcDemo2/D:\/eclipse-workspace\/SpringMvcDemo2\/WebContent\/WEB-INF\/lib\/spring-webmvc-4.1.6.RELEASE.jar&lt;org.springframework.web.servlet.mvc.method.annotation(RequestMappingHandlerAdapter.class[RequestMappingHandlerAdapter" modifiers="33" timestamp="1517542183633"/>
+<typeInfo handle="=SpringUserDao1/src&lt;dao{UserDao.java[UserDao" modifiers="513" timestamp="1518248030624"/>
+<typeInfo handle="=SpringUserService2/src&lt;service{UserService.java[UserService" modifiers="513" timestamp="1518315174833"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class[ArrayList" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util(LinkedList.class[LinkedList" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util(HashMap.class[HashMap" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util.concurrent(ConcurrentHashMap.class[ConcurrentHashMap" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=StudyTeacher/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util(Objects.class[Objects" modifiers="49" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util(HashSet.class[HashSet" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util(Vector.class[Vector" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.lang.reflect(Proxy.class[Proxy" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=StaticProxy/src&lt;com.ghgj.yn.stat{DAO.java[DAO" modifiers="513" timestamp="1519734527458"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util.concurrent.locks(ReentrantLock.class[ReentrantLock" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util.concurrent(Callable.class[Callable" modifiers="1537" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util.concurrent.locks(ReadWriteLock.class[ReadWriteLock" modifiers="1537" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.lang.invoke(DirectMethodHandle$Constructor.class[Constructor" modifiers="8" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.lang.reflect(Constructor.class[Constructor" modifiers="49" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util.concurrent(Executors.class[Executors" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util.concurrent(ArrayBlockingQueue.class[ArrayBlockingQueue" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util.concurrent(LinkedBlockingQueue.class[LinkedBlockingQueue" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util.concurrent(ThreadPoolExecutor$CallerRunsPolicy.class[CallerRunsPolicy" modifiers="9" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util.concurrent(SynchronousQueue.class[SynchronousQueue" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util.concurrent(ThreadPoolExecutor.class[ThreadPoolExecutor" modifiers="33" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util(Iterator.class[Iterator" modifiers="1537" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util(Collection.class[Collection" modifiers="1537" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util(Map.class[Map" modifiers="1537" timestamp="1511766885990"/>
+<typeInfo handle="=BookOps/C:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util(List.class[List" modifiers="1537" timestamp="1511766885990"/>
+</typeInfoHistroy>

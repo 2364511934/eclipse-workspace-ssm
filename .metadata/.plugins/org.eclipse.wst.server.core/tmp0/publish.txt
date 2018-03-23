@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sat Feb 03 20:55:07 CST 2018
+org.eclipse.jst.jee.server\:HomeworkSSM=D\:\\java_dev\\tomcat\\apache-tomcat-8.5.23\\webapps\\HomeworkSSM
+org.eclipse.jst.jee.server\:/binary\:D\:\\eclipse-workspace\\HomeworkSSM\\WebContent\\WEB-INF\\lib\\spring-web-4.1.6.RELEASE.jar=D\:\\java_dev\\tomcat\\apache-tomcat-8.5.23\\webapps\\HomeworkSSM\\WEB-INF\\lib\\spring-web-4.1.6.RELEASE.jar

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<!-- 外部加载配置文件 -->
+	 <!-- 1.配置(动态替换) 
+    		1.1 java的属性文件外部引入   resource="jdbc.properties"
+    		1.2 property标签中配置
+    		
+    		当两者冲突时，最终使用java的属性文件的配置。即是<properties resource="jdbc.properties">
+    		<properties resource="jdbc.properties"> 加载会比较晚 会覆盖
+    		property标签中配置
+       -->
+	<properties resource="jdbc.properties">
+		<!-- <property name="db.driver" value="com.mysql.jdbc.Driver" />
+		<property name="db.url" value="jdbc:mysql:///bd1711" />
+		<property name="db.username" value="root" />
+		<property name="db.password" value="root" /> -->
+	</properties>
+	
+	<settings>
+		<!-- 缓存总开关 默认开启 -->
+		<setting name="cacheEnabled" value="true"/>
+		<!-- 延迟加载  默认不启用 -->
+		<setting name="lazyLoadingEnabled" value="true"/>
+	</settings>
+	
+	<typeAliases>
+		<!-- <typeAlias type="entity.Book" alias="book"/> -->
+		<package name="entity"/>
+	</typeAliases>
+	
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="${db.driver}" />
+				<property name="url" value="${db.url}" />
+				<property name="username" value="${db.user}" />
+				<property name="password" value="${db.pwd}" />
+			</dataSource>
+		</environment>
+	</environments>
+	<mappers>
+		<!-- <mapper resource="BookMapper.xml" /> -->
+		<!-- <mapper url="file:///D:\eclipse-workspace\MybatisBookOperation3\config\BookMapper.xml" /> -->
+		<package name="mapper" />
+	</mappers>
+</configuration>

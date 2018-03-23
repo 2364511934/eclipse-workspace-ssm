@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.BookMapper">
+	<sql id="bookCols">
+		bid, bname, author, price
+	</sql>
+
+	<!-- 查询所有的书 -->
+	<select id="queryAll" resultType="book">
+		select
+		<include refid="bookCols" />
+		from book
+	</select>
+
+	<!-- 查询指定的一本书 -->
+	<select id="queryOne" resultType="book">
+		select
+		<include refid="bookCols" />
+		from book where bid=#{bid}
+	</select>
+
+	<!-- 插入一本书 -->
+	<insert id="insertOne" parameterType="book">
+		insert into book(bname,
+		author, price)
+		values(#{bname}, #{author}, #{price})
+	</insert>
+
+	<!-- 插入一本书 带回主键 -->
+	<insert id="insertOneByBid" parameterType="book"
+		useGeneratedKeys="true" keyProperty="bid">
+		insert into book(bname, author,
+		price)
+		values(#{bname}, #{author}, #{price})
+	</insert>
+
+	<!-- 更新书 -->
+	<update id="updateOne" parameterType="book">
+		update book set
+		bname=#{bname}, author=#{author}, price=#{price}
+		where bid=#{bid}
+	</update>
+
+	<!-- 删除一本书 -->
+	<delete id="deleteOne">
+		delete from book where bid=#{bid}
+	</delete>
+
+	<resultMap type="book" id="bookMap">
+		<id column="bid" property="bid" />
+		<result column="bname" property="bname" />
+		<result column="author" property="author" />
+		<result column="price" property="price" />
+	</resultMap>
+
+	<!-- 查询所有的书通过map -->
+	<select id="queryAllByMap" resultMap="bookMap">
+		select
+		<include refid="bookCols" />
+		from book
+	</select>
+
+	<!-- 通过条件查询 -->
+	<select id="queryCombo" parameterType="book" resultType="book">
+		select
+		<include refid="bookCols" />
+		from book where 1 = 1
+		<if test="bid != 0">
+			and bid=#{bid}
+		</if>
+
+		<if test="bname != null">
+			and bname=#{bname}
+		</if>
+
+		<if test="author != null">
+			and author=#{author}
+		</if>
+
+		<if test="price != 0.0">
+			and price=#{price}
+		</if>
+
+	</select>
+
+
+	<!-- 通过条件查询 -->
+	<select id="queryComboByChoose" parameterType="book" resultType="book">
+		select
+		<include refid="bookCols" />
+		from book where 1 = 1
+		<choose>
+			<when test="bid != 0">
+				and bid=#{bid}
+			</when>
+			<otherwise>
+				and bname=#{bname}
+			</otherwise>
+		</choose>
+	</select>
+
+	<!-- 通过条件查询 where -->
+	<select id="queryComboByWhere" parameterType="book" resultType="book">
+		select
+		<include refid="bookCols" />
+		from book
+		<where>
+			<if test="bid != 0">
+				and bid = #{bid}
+			</if> 
+			<if test="bname != null">
+				and bname = #{bname}
+			</if> 
+		</where>
+	</select>
+	
+	
+	<!-- 通过条件查询 where -->
+	<select id="queryComboByForeach"  resultType="book">
+		select <include refid="bookCols" /> from book where bid in
+		<foreach collection="list" item="bid" open="(" close=")" separator=",">
+			#{bid}
+		</foreach>
+	</select>
+
+</mapper>
